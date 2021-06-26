@@ -1,0 +1,6 @@
+streamlit
+padllepaddle
+paddleocr
+PIL
+numpy
+shapely
