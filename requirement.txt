@@ -2,4 +2,3 @@ streamlit
 paddleocr
 PIL
 numpy
-matplotlib
