@@ -6,7 +6,8 @@ import numpy as np
 import paddleocr
 from paddleocr import PaddleOCR, draw_ocr 
 import streamlit as st
-
+from warnings import simplefilter 
+simplefilter(action='ignore', category=DeprecationWarning)
 src_dict={"English":"en","Hindi": "hi" ,"Telugu":"te", "Tamil": "ta"}
 
 def save_uploadedfile(uploadedfile):
