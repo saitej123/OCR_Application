@@ -26,7 +26,7 @@ def main():
     st.set_option('deprecation.showfileUploaderEncoding',False)
     st.image(image,use_column_width=True)
     st.sidebar.subheader('OCR Application \n Language Selection Menu')   
-    src = st.sidebar.selectbox("From Language",['English','Hindi','Telugu','Tamil'])
+    src = st.sidebar.selectbox("",['English','Hindi','Telugu','Tamil'])
     
         
     image_file = st.file_uploader("Upload Image",type=['jpg','png','jpeg','JPG'])
