@@ -44,7 +44,7 @@ def main():
                 boxes = [line[0] for line in result]
                 txts = [line[1][0] for line in result]
                 scores = [line[1][1] for line in result]
-                im_show = draw_ocr(image, boxes, txts, scores, font_path='/home/appuser/share/fonts/truetype/freefont/FreeMono.ttf')
+                im_show = draw_ocr(image, boxes, txts, scores, font_path='/usr/share/fonts/truetype/open-sans/OpenSans-Bold.ttf')
                 im_show = Image.fromarray(im_show)
                 st.subheader('Extracted text is ...')
                     
