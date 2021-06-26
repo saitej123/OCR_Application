@@ -1,6 +1,6 @@
 streamlit
 paddlepaddle
-git+https://github.com/saitej123/PaddleOCR/commit/b768b0dda319048093589ddfa98276d0b8014b7d
+git+https://github.com/saitej123/PaddleOCR/commit/b768b0dda319048093589ddfa98276d0b8014b7d.git
 pillow 
 numpy
 shapely
