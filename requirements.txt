@@ -3,4 +3,4 @@ paddleocr
 pillow 
 numpy
 shapely
-opencv-python
+opencv-python-headless 
