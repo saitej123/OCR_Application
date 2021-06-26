@@ -3,7 +3,6 @@ import sys
 import signal
 from PIL import Image
 import numpy as np
-import matplotlib.pyplot as plt
 import paddleocr
 from paddleocr import PaddleOCR, draw_ocr 
 import streamlit as st
