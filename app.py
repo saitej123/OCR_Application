@@ -25,6 +25,7 @@ def main():
     image = Image.open('sai_app_header.png')
     st.set_option('deprecation.showfileUploaderEncoding',False)
     st.image(image,use_column_width=True)
+    st.subheader('Select the language from sidebar') 
     st.sidebar.subheader('OCR Application \n Language Selection Menu')   
     src = st.sidebar.selectbox("",['English','Hindi','Telugu','Tamil'])
     
@@ -54,7 +55,7 @@ def main():
     else:
         st.subheader('Image not found! Please Upload an Image.')
 
-st.markdown("OCR Application built with Streamlit by -- Sai Tej")
+st.markdown("OCR Application built by -- Sai Tej")
 if __name__ == '__main__':   
    
     main()
