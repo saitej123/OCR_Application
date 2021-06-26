@@ -1,5 +1,5 @@
 streamlit
-paddleocr
+paddleocr==2.1.0
 PIL==8.2.0
 numpy
 shapely
