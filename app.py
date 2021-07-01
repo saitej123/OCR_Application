@@ -8,7 +8,7 @@ from paddleocr import PaddleOCR, draw_ocr
 import streamlit as st
 from warnings import simplefilter 
 simplefilter(action='ignore', category=DeprecationWarning)
-src_dict={"English":"en","Hindi": "hi" ,"Telugu":"te", "Tamil": "ta"}
+src_dict={"English":"en","Dutch":"nl","Hindi": "hi" ,"Telugu":"te", "Tamil": "ta"}
 
 def save_uploadedfile(uploadedfile):
      with open(os.path.join(uploadedfile.name),"wb") as f:
@@ -27,7 +27,7 @@ def main():
     st.image(image,use_column_width=True)
     st.subheader('Select the language from sidebar') 
     st.sidebar.subheader('OCR Application \n Language Selection Menu')   
-    src = st.sidebar.selectbox("",['English','Hindi','Telugu','Tamil'])
+    src = st.sidebar.selectbox("",['English','Dutch','Hindi','Telugu','Tamil'])
     
         
     image_file = st.file_uploader("Upload Image",type=['jpg','png','jpeg','JPG'])
